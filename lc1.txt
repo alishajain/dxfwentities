@@ -1,0 +1,11 @@
+circle
+0.0
+0.0
+50
+"first"
+rectangle
+10
+0
+40
+50
+"second"
