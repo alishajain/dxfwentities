@@ -14,6 +14,7 @@ using  namespace std;
 class Dxf_write_entities :public DRW_InterfaceImpl {
 public:
 	void DxfBegin();
+	void Dxf_draw_point(float, float, std::string);
 	void Dxf_draw_line(float, float, float, float, std::string);
 	void Dxf_draw_rectangle(float, float, float, float, float, float, float, float, std::string);
 	void Dxf_draw_circle(float, float, float, std::string);

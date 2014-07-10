@@ -20,7 +20,17 @@ int main(int argc, char **argv)
 	{
 		std::getline(f, sel_str);
 		//c=std::tolower(sel_str);
-		if(sel_str.compare("line")==0)
+		if(sel_str.compare("point")==0)
+		{
+			float x1, y1, ly;
+
+			cout<<"******** POINT ********"<<endl;
+
+			f>>x1>>y1>>ly;
+
+			d1.Dxf_draw_point(x1,y1,ly);
+		}
+		else if(sel_str.compare("line")==0)
 		{
 			float x1, x2, y1, y2;
 
