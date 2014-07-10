@@ -6,5 +6,7 @@ This code takes up the text file which contains the information about the entiti
 
 Compile the entities.pro file by running following commands:
 qmake entities.pro
+
 make
+
 ./entities
