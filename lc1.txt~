@@ -2,23 +2,23 @@ circle
 0.0
 0.0
 50
-first
+"first"
 
 rectangle
 10
 0
 40
 50
-second
+"second"
 
 line
 0.0
 0.0
 40.0
 40.0
-two
+"two"
 
 point
 70.7
 40.7
-three
+"three"
