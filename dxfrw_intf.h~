@@ -12,7 +12,7 @@ public:
     virtual void addVport(const DRW_Vport& data) {}
     virtual void addTextStyle(const DRW_Textstyle& data) {}
     virtual void addBlock(const DRW_Block& data) {}
-    virtual void setBlock(const int handle) {}
+    virtual void setBlock(const int Handle) {}
     virtual void endBlock() {}
     virtual void addPoint(const DRW_Point& data) {}
     virtual void addLine(const DRW_Line& data) {}
