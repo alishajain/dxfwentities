@@ -14,11 +14,12 @@ int main(int argc, char **argv)
 	std::string sel_str, c, ly;
 
 	ifstream f;
-	f.open("lc1.txt", ios::in);
-	
+	f.open("lc.txt", ios::in);
+
 	while(!f.eof())
 	{
-		std::getline(f, sel_str);
+		sel_str="0";
+		f>>sel_str;
 		//c=std::tolower(sel_str);
 		if(sel_str.compare("point")==0)
 		{

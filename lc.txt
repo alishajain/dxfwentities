@@ -1,0 +1,10 @@
+point 70.7 40.7 three
+line 0.0 0.0 40.0 70.0 two
+circle 0.0 0.0 50 first
+line 0.0 0.0 40.0 40.0 two
+circle 0.0 0.0 75 second
+rectangle 10 0 40 50 second
+
+
+
+
